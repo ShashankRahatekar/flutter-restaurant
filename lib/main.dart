@@ -13,16 +13,16 @@ class MainApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Restaurant App'),
+          title: const Text('Restaurant App'),
           actions: [
             IconButton(
                 onPressed: () {
                   print('Icon tapped');
                 },
-                icon: Icon(Icons.shopping_cart))
+                icon: const Icon(Icons.shopping_cart))
           ],
         ),
-        body: Center(
+        body: const Center(
           child: Text('Hello World!'),
         ),
       ),
