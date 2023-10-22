@@ -1,2 +1,3 @@
-# flutter-restaurant
-Flutter App for restaurant
+# restaurant
+
+A new Flutter project.
